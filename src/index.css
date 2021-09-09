@@ -22,6 +22,8 @@
     display: flex;
     align-items: center;
     width: 33.3%;
+    text-decoration: none;
+    color: black;
 }
 
 #logo{
@@ -37,12 +39,13 @@
    display: flex;
    justify-content: center;
    width: 33.3%;
+   text-decoration: none;
 
 }
-#headerMiddle p{
-    margin: 1rem;
-
- }
+.headerLinks{
+    text-decoration: none;
+    color: black;
+}
 
 #headerCenter{
 
@@ -51,18 +54,16 @@
     display: flex;
     width: 33.3%;
     justify-content: end;
-
-
-}
-#headerRight p{
-    margin: 1rem;
-    
 }
 
+.headerLinksRight{
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
 
 
-
-
+/* Landing Section --------------------------------------------------------------------------------------------------------- */
 
 #landingContainer{
     height: 90vh;
@@ -92,9 +93,17 @@
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+
 #landingAbout{
     font-size: 2rem;
     border: .1rem solid white;
-    padding: .5rem;
+    padding: .3rem;
     border-radius: .2rem .2rem .2rem .2rem;
+    text-decoration: none;
+    color: white;
+}
+
+#landingAbout:hover{
+    color: black;
+    border: .1rem solid black;
 }
