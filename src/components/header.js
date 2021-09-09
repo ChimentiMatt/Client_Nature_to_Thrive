@@ -16,7 +16,7 @@ export default function Header() {
             
             <Router forceRefresh> 
                 <Link to ='/' id="headerLeft">
-                    <img id="logo" src={Logo}></img>
+                    <img id="logo" src={Logo} alt="logo"></img>
                     <p id="headerName">NATURE TO THRIVE</p>
                 </Link>
             </Router>
