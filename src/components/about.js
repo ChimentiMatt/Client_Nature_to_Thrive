@@ -5,7 +5,9 @@ export default function AboutPage() {
     return(
         <>
             <Header />
-            Test about page
+            <div id="aboutPage">
+                <p id="aboutPageTitle">ABOUT MONIKA</p>
+            </div>
         </>
     )
 }
