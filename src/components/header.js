@@ -15,7 +15,7 @@ export default function Header() {
         <div id="headerContainer">
             
             <Router forceRefresh> 
-                <Link to ='/'id="headerLeft">
+                <Link to ='/' id="headerLeft">
                     <img id="logo" src={Logo}></img>
                     <p id="headerName">NATURE TO THRIVE</p>
                 </Link>
@@ -32,8 +32,8 @@ export default function Header() {
                     PSYCHOTHERAPY
                 </Link>
             </Router>
-            <div>
-                <Router forceRefresh id="headerRight">
+            <div id="headerRight">
+                <Router forceRefresh >
                     <Link to ='/faq' className="headerLinksRight">
                         FAQ
                     </Link>

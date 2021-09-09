@@ -40,7 +40,7 @@
    justify-content: center;
    width: 33.3%;
    text-decoration: none;
-
+    border: 1px solid black;
 }
 .headerLinks{
     text-decoration: none;
