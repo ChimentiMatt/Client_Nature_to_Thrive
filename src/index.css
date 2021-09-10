@@ -35,18 +35,20 @@
 }
 
 #headerName{
-    font-size: 2rem;
+    font-size: 1rem;
 }
+
 #headerMiddle{
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    width: 33.3%;
    text-decoration: none;
-   border: 1px solid black;
 }
+
 .headerLinks{
     text-decoration: none;
     color: black;
+    font-size: 1rem;
 }
 
 #headerCenter{
@@ -54,9 +56,14 @@
 
 #headerRight{
     display: flex;
+    flex-direction: column;
     width: 33.3%;
-    justify-content: flex-end;
+    align-items: flex-end;
+}
 
+#headerRightPhone{
+    margin-top: .5rem;
+    margin-right: 1.5rem;
 }
 
 .headerLinksRight{
@@ -103,11 +110,13 @@
     text-decoration: none;
     color: black;
     background: rgba(255, 255, 255, 0.60);
+    color: white;
+    background: rgba(0, 0, 0, 0.10);    
 }
 
 #landingAbout:hover{
-    color: white;
-    background: rgba(0, 0, 0, 0.10);    
+    color: black;
+    background: rgba(255, 255, 255, 0.50);
 }
 
 
@@ -118,11 +127,7 @@
     height: 100vh;
 }
 
-#aboutPageHeaderImg{
-    width: 100vw;
-    height: 25rem;
-    object-fit: cover;
-}
+
 #aboutPageContextArea{
     margin-left: 15vw;
     margin-right: 15vw;

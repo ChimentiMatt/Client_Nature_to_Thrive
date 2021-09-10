@@ -2,17 +2,19 @@ import React from 'react'
 import Header from './header.js'
 import Monika from './images/MonikaHeadshot.jpg'
 import MonikaHorizontal from './images/MonikaH.jpg'
-import Nature from './images/nature3_edit1.jpg'
+
 
 export default function AboutPage() {
     return(
         <>
             <Header />
             <div id="aboutPage">
-            <img src={Nature} alt="nature" id="aboutPageHeaderImg"></img>
+
+
+                <p id="aboutPageTitle">ABOUT MONIKA</p>
 
                 <div id="aboutPageContextArea"> 
-                    <p id="aboutPageTitle">ABOUT MONIKA</p>
+             
                     <div>
                         <img id ="MonikaAboutImg" src={MonikaHorizontal}></img>
                         <div id="aboutPageContentContainer">

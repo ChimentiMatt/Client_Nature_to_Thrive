@@ -21,26 +21,33 @@ export default function Header() {
                 </Link>
             </Router>
 
-            <Router forceRefresh id="headerMiddle">
-                <Link to ='/about' className="headerLinks">
-                    ABOUT
-                </Link>
-                <Link to ='/outdoor-ecotherapy' className="headerLinks">
-                    OUTDOOR-ECOTHERAPY
-                </Link>
-                <Link to ='/psychotherapy' className="headerLinks">
-                    PSYCHOTHERAPY
-                </Link>
-            </Router>
-            <div id="headerRight">
+            <div id="headerMiddle">
                 <Router forceRefresh >
-                    <Link to ='/faq' className="headerLinksRight">
-                        FAQ
+                    <Link to ='/about' className="headerLinks">
+                        ABOUT
                     </Link>
-                    <Link to ='/contact' className="headerLinksRight">
-                        CONTACT
+                    <Link to ='/outdoor-ecotherapy' className="headerLinks">
+                        OUTDOOR-ECOTHERAPY
+                    </Link>
+                    <Link to ='/psychotherapy' className="headerLinks">
+                        PSYCHOTHERAPY
                     </Link>
                 </Router>
+            </div>
+            <div id="headerRight">
+                <div>
+                   <Router forceRefresh >
+                        <Link to ='/faq' className="headerLinksRight">
+                            FAQ
+                        </Link>
+                        <Link to ='/contact' className="headerLinksRight">
+                            CONTACT
+                        </Link>
+                    </Router>
+                </div>
+                <div id="headerRightPhone">
+                    (503) 964-9999
+                </div>
             </div>
         </div>
         </>
