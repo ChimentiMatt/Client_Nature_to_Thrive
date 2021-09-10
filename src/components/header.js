@@ -5,7 +5,9 @@ import {
     // Route,
     Link,
   } from "react-router-dom";
-
+import { HashLink } from 'react-router-hash-link';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import ReactDOM from 'react-dom'
 
 import Logo  from './images/logoEdit.png'
 
@@ -23,9 +25,9 @@ export default function Header() {
 
             <div id="headerMiddle">
                 <Router forceRefresh >
-                    <Link to ='/about' className="headerLinks">
+                    <AnchorLink href='#aboutSection' className="headerLinks">
                         ABOUT
-                    </Link>
+                    </AnchorLink>
                     <Link to ='/outdoor-ecotherapy' className="headerLinks">
                         OUTDOOR-ECOTHERAPY
                     </Link>

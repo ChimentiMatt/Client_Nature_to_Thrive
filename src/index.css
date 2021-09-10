@@ -78,7 +78,8 @@
 #landingContainer{
     height: 90vh;
     width: 100VW;
-    background: url("./components/images/Monika1edit.jpg");
+    background: url("./components/images/nature4_edit.jpg");
+    background-size: cover;
     text-align: center;
     color: white;
     font-size: 5rem;
@@ -93,11 +94,14 @@
 
 #landingName{
     font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 #landingLicensed{
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold
 }
 
 #landingAbout{
@@ -108,15 +112,15 @@
     padding-right: 2rem;
     border-radius: .2rem .2rem .2rem .2rem;
     text-decoration: none;
-    color: black;
-    background: rgba(255, 255, 255, 0.60);
     color: white;
-    background: rgba(0, 0, 0, 0.10);    
+
+    font-weight: bold;
+    border: 1px solid white;
 }
 
 #landingAbout:hover{
-    color: black;
-    background: rgba(255, 255, 255, 0.50);
+    background: rgba(0, 0, 0, 0.10);    
+    color: white;
 }
 
 
@@ -129,6 +133,7 @@
 
 
 #aboutPageContextArea{
+    display: flex;
     margin-left: 15vw;
     margin-right: 15vw;
 }
@@ -139,9 +144,16 @@
     text-align: center;
     font-size: 3rem;
 }
+#aboutLeft{
+    width: 49%;
+    margin-right: 1%;
 
-#aboutPageContentContainer{
+}
+
+#aboutRight{
     display: flex;
+    width: 49%;
+    margin-left: 1%;
     margin-top: 3rem;
 }
 

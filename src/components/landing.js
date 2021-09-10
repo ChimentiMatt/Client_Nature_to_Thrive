@@ -5,6 +5,7 @@ import {
     // Route,
     Link,
   } from "react-router-dom";  
+import AboutPage from './about.js';
 import Header from './header.js'
 
 export default function Landing(){
@@ -13,15 +14,17 @@ export default function Landing(){
             <Header />
             <div id="landingContainer">
                 <div id="landingTextContainer">
-                    <p id="landingName">MONIKA TIPPIE</p>
-                    <p id="landingLicensed">LICENSED ECOTHERAPIST</p>
+                    <p id="landingName">NATURE TO THRIVE</p>
+                    <p id="landingLicensed">LICENSED ECOTHERAP</p>
                     <Router>
-                        <Link to ='about' id="landingAbout">
+                        <Link to ='/about' id="landingAbout">
                             ABOUT MONIKA
                         </Link>
                     </Router>
                 </div>
             </div>
+
+            <AboutPage />
         </>
     )
 
