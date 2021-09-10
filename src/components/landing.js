@@ -14,7 +14,7 @@ export default function Landing(){
             <div id="landingContainer">
                 <div id="landingTextContainer">
                     <p id="landingName">MONIKA TIPPIE</p>
-                    <p id="landingLicensed">LICENSED PSYCHOTHERAPIST</p>
+                    <p id="landingLicensed">LICENSED ECOTHERAPIST</p>
                     <Router>
                         <Link to ='about' id="landingAbout">
                             ABOUT MONIKA

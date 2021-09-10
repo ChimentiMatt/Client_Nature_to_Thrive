@@ -118,6 +118,11 @@
     height: 100vh;
 }
 
+#aboutPageHeaderImg{
+    width: 100vw;
+    height: 25rem;
+    object-fit: cover;
+}
 #aboutPageContextArea{
     margin-left: 15vw;
     margin-right: 15vw;
