@@ -56,6 +56,7 @@
     display: flex;
     width: 33.3%;
     justify-content: flex-end;
+
 }
 
 .headerLinksRight{
@@ -94,32 +95,46 @@
 
 #landingAbout{
     font-size: 1.5rem;
-    border: .1rem solid white;
+    border: none;
     padding: .3rem;
     padding-left: 2rem;
     padding-right: 2rem;
     border-radius: .2rem .2rem .2rem .2rem;
     text-decoration: none;
-    color: white;
+    color: black;
+    background: rgba(255, 255, 255, 0.60);
 }
 
 #landingAbout:hover{
-    color: black;
-    border: .1rem solid black;
+    color: white;
+    background: rgba(0, 0, 0, 0.10);    
 }
 
 
 /* About Page ----------------------------------------------------------------------------------- */
 
 #aboutPage{
-    height: 90vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    background: rgba(0, 0, 0, 0.05);
+    height: 100vh;
+}
+
+#aboutPageContextArea{
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 #aboutPageTitle{
-
-    margin-top: 4rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
     font-size: 3rem;
+}
+
+#aboutPageContentContainer{
+    display: flex;
+    margin-top: 3rem;
+}
+
+#MonikaAboutImg{
+    width: 100%;
 }
