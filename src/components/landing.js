@@ -23,7 +23,6 @@ export default function Landing(){
                     </Router>
                 </div>
             </div>
-
             <AboutPage />
         </>
     )

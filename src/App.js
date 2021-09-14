@@ -9,6 +9,7 @@ import OutdoorPage from './components/outdoor';
 import PsychPage from './components/psych';
 import FaqPage from './components/faq';
 import ContactPage from './components/contact';
+import EventsPage from './components/events';
 
 function App() {
   return (
@@ -39,7 +40,9 @@ function App() {
             <ContactPage />
           </Route>
 
-
+          <Route exact path="/events">
+            <EventsPage />
+          </Route>
 
 
         </Switch>

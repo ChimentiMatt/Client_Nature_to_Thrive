@@ -43,6 +43,7 @@
    justify-content: space-between;
    width: 33.3%;
    text-decoration: none;
+
 }
 
 .headerLinks{
@@ -159,4 +160,19 @@
 
 #MonikaAboutImg{
     width: 100%;
+}
+
+
+
+
+/* lisa notes */
+#lisa{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+#bold{
+    font-weight: bold;
 }

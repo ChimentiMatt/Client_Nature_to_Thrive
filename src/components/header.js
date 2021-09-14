@@ -34,6 +34,9 @@ export default function Header() {
                     <Link to ='/psychotherapy' className="headerLinks">
                         PSYCHOTHERAPY
                     </Link>
+                    <Link to ='/events' className="headerLinks">
+                        EVENTS
+                    </Link>
                 </Router>
             </div>
             <div id="headerRight">
